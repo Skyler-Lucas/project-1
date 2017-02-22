@@ -1,8 +1,44 @@
 /*font-family: 'Dancing Script', cursive;*/
 /*
-slightly teal 2FFFD7
-sky blue 20E8E5
-minty green 4EFFBC
-teal 05E8C2
-pale blue9DE1D7
+slightly teal #2FFFD7
+sky blue #20E8E5
+minty green #4EFFBC
+teal #05E8C2
+pale blue #9DE1D7
 */
+body{
+    max-width: 1000px;
+    background-color:#9DE1D7;
+    color:rebeccapurple;
+    font-family: 'Dancing Script', cursive;   
+}
+#container-fluid{
+    display: flex;
+}
+#main-content-wrapper{
+    min-width: 500px;
+    margin-bottom:20px;
+    margin-top:20px;
+   
+}
+#header{
+    border-bottom: 10px solid black;
+}
+#header > h1{
+    margin: 0;
+    text-align: right;
+    position: relative;
+    font-size: -webkit-xxx-large;
+}
+#header > h2{
+    margin: 0;
+    text-align: right;
+    position: relative;
+    font-size: xx-large;
+    margin-bottom: 7px;
+}
+#bottom-content-wrapper {
+min-width:300px;
+Display:flex;
+Justify-content: space-around;
+}
