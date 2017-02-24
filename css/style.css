@@ -1,5 +1,6 @@
 /*font-family: 'Dancing Script', cursive;*/
 /*
+Purple: rebeccapurple
 slightly teal #2FFFD7
 sky blue #20E8E5
 minty green #4EFFBC
@@ -7,20 +8,22 @@ teal #05E8C2
 pale blue #9DE1D7
 */
 body{
-    max-width: 1000px;
     background-color:#9DE1D7;
     color:rebeccapurple;
-    font-family: 'Dancing Script', cursive;   
+    font-family: 'Dancing Script', cursive; 
 }
-#container-fluid{
-    display: flex;
+#wrapper{
+    position: absolute;
 }
 #main-content-wrapper{
+    float: right;
     min-width: 500px;
-    margin-bottom:20px;
-    margin-top:20px;
-   
+    margin-bottom: 20px;
+    margin-top: 20px;
+    right: 0px;
+    padding: 10px;
 }
+   
 #header{
     border-bottom: 10px solid black;
 }
@@ -37,8 +40,20 @@ body{
     font-size: xx-large;
     margin-bottom: 7px;
 }
-#bottom-content-wrapper {
-min-width:300px;
-Display:flex;
-Justify-content: space-around;
+.col-md-12 {
+    padding-left: 30px;
+}
+#row-words{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 36px;
+}
+.image-content{
+    width: 1000px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.col-md-2 {
+    width: 16.66666667%;
+    max-height: 10px;
 }
