@@ -74,9 +74,6 @@ body{
     border: 1px solid blue !important;*/
 /*}*/
 
-.image-content >img {
-    max-width: 200px;
-}
 #row {
     width: 100%; 
     display: flex;
@@ -128,7 +125,7 @@ body{
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
     #row{
      flex-wrap: nowrap;  
     flex-direction: column;
