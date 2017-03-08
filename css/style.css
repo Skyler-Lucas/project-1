@@ -26,12 +26,14 @@ body{
    
 #header{
     border-bottom: 10px solid black;
+    min-height: 80px;
 }
 #header > h1{
     margin: 0;
     text-align: right;
     position: relative;
     font-size: 90px;
+   
 }
 #header > h2{
     margin: 0;
@@ -47,93 +49,24 @@ body{
 .words{
     color: rebeccapurple;
     font-size: 25px;
-    text-align:auto;
-    
-    
+    text-align: center;   
 }
+
 .image-content{
     width: 1000px;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 290px;
 }
 .col-md-2 {
     width: 16.66666667%;
     max-height: 10px;
 }
 
-
-
-
-{
-    -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;  
-}
-/*.border {
-    border: 1px solid blue !important;*/
-/*}*/
-
-#row {
-    width: 100%; 
-    display: flex;
-}
-
-.col-1 {
-    width: 8.33%;
-}
-.col-2 {
-    width: 16.667%;
-}
-.col-3 {
-    width: 25%;
-}
-.col-4 {
-    width: 33.333%;
-}
-.col-5 {
-    width: 41.667%;
-}
-.col-6 {
-    width: 50%;
-}
-.col-7 {
-    width: 58.333%;
-}
-.col-8 {
-    width: 66.667%;
-}
-.col-9 {
-    width: 75%;
-}
-.col-10 {
-    width: 83.333%;
-}
-.col-11 {
-    width: 91.667%;
-}
-.col-12 {
-    width: 100%;
-}
-
-@media (max-width: 500px) {
-    #row{
-     flex-wrap: wrap;  
-    } 
-    .col-1,.col-2, .col-3,.col-4, .col-5,.col-6, .col-7,.col-8, .col-9,.col-10, .col-11, .col-12 {
-      flex:1;  
-    }
-}
-
-@media (max-width: 200px) {
-    #row{
-     flex-wrap: nowrap;  
-    flex-direction: column;
-    } 
-    .col-1,.col-2, .col-3,.col-4, .col-5,.col-6, .col-7,.col-8, .col-9,.col-10, .col-11, .col-12 {
-      width: 100%;  
-    }
-}
 .image-modal {
     text-align: center;
+}
+
+.row{
+    margin-right: -300px;
+    margin-left: -15px;
 }
