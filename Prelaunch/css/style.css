@@ -1,0 +1,92 @@
+/*font-family: 'Dancing Script', cursive;*/
+/*
+Purple: rebeccapurple
+slightly teal #2FFFD7
+sky blue #20E8E5
+minty green #4EFFBC
+teal #05E8C2
+pale blue #9DE1D7
+*/
+body{
+    background-color:#9DE1D7;
+    color:rebeccapurple;
+    font-family: 'Dancing Script', cursive; 
+}
+#wrapper{
+    max-width: 1060px;
+    margin:0 auto;
+}
+.row{
+    margin-bottom: 50px;
+}
+.img-responsive{
+    margin:0 auto;
+}
+.words{
+    text-align: center;
+    font-size: 36px;
+}
+/*
+#wrapper{
+    position: absolute;
+}
+#main-content-wrapper{
+    float: right;
+    min-width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    right: 0px;
+    padding: 10px;
+}
+*/
+   
+#header{
+    text-align: right;
+    margin-bottom: 50px;
+    border-bottom: 10px solid black;
+    min-height: 80px;
+}
+#header > h1{
+    font-size: 75px;
+}
+#header > h2{
+    font-size: 50px;
+}
+.modal-body{
+    text-align: center;
+}
+/*
+#header > h1{
+
+   
+}
+#header > h2{
+    margin: 0;
+    text-align: right;
+    position: relative;
+    font-size: xx-large;
+    margin-bottom: 7px;
+    font-size: 36px;
+}
+
+.words{
+    color: rebeccapurple;
+    font-size: 25px;
+    text-align: center;   
+}
+
+.image-content{
+    width: 1000px;
+    margin-top: 5px;
+    margin-right: 290px;
+}
+
+.image-modal {
+    text-align: center;
+}
+*/
+
+/*.row{
+    margin-right: -300px;
+    margin-left: -15px;
+}*/
