@@ -13,6 +13,21 @@ body{
     font-family: 'Dancing Script', cursive; 
 }
 #wrapper{
+    max-width: 1060px;
+    margin:0 auto;
+}
+.row{
+    margin-bottom: 50px;
+}
+.img-responsive{
+    margin:0 auto;
+}
+.words{
+    text-align: center;
+    font-size: 36px;
+}
+/*
+#wrapper{
     position: absolute;
 }
 #main-content-wrapper{
@@ -23,16 +38,26 @@ body{
     right: 0px;
     padding: 10px;
 }
+*/
    
 #header{
+    text-align: right;
+    margin-bottom: 50px;
     border-bottom: 10px solid black;
     min-height: 80px;
 }
 #header > h1{
-    margin: 0;
-    text-align: right;
-    position: relative;
-    font-size: 90px;
+    font-size: 75px;
+}
+#header > h2{
+    font-size: 50px;
+}
+.modal-body{
+    text-align: center;
+}
+/*
+#header > h1{
+
    
 }
 #header > h2{
@@ -43,9 +68,7 @@ body{
     margin-bottom: 7px;
     font-size: 36px;
 }
-.col-md-12 {
-    padding-left: 30px;
-}
+
 .words{
     color: rebeccapurple;
     font-size: 25px;
@@ -57,16 +80,13 @@ body{
     margin-top: 5px;
     margin-right: 290px;
 }
-.col-md-2 {
-    width: 16.66666667%;
-    max-height: 10px;
-}
 
 .image-modal {
     text-align: center;
 }
+*/
 
-.row{
+/*.row{
     margin-right: -300px;
     margin-left: -15px;
-}
+}*/
