@@ -26,20 +26,6 @@ body{
     text-align: center;
     font-size: 36px;
 }
-/*
-#wrapper{
-    position: absolute;
-}
-#main-content-wrapper{
-    float: right;
-    min-width: 500px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    right: 0px;
-    padding: 10px;
-}
-*/
-   
 #header{
     text-align: right;
     margin-bottom: 50px;
@@ -55,38 +41,3 @@ body{
 .modal-body{
     text-align: center;
 }
-/*
-#header > h1{
-
-   
-}
-#header > h2{
-    margin: 0;
-    text-align: right;
-    position: relative;
-    font-size: xx-large;
-    margin-bottom: 7px;
-    font-size: 36px;
-}
-
-.words{
-    color: rebeccapurple;
-    font-size: 25px;
-    text-align: center;   
-}
-
-.image-content{
-    width: 1000px;
-    margin-top: 5px;
-    margin-right: 290px;
-}
-
-.image-modal {
-    text-align: center;
-}
-*/
-
-/*.row{
-    margin-right: -300px;
-    margin-left: -15px;
-}*/
