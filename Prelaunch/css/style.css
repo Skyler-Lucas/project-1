@@ -7,38 +7,38 @@ minty green #4EFFBC
 teal #05E8C2
 pale blue #9DE1D7
 */
-body{
-    background-color:#9DE1D7;
-    color:rebeccapurple;
+body {
+    background-color: #9DE1D7;
+    color: rebeccapurple;
     font-family: 'Dancing Script', cursive; 
 }
-#wrapper{
+#wrapper {
     max-width: 1060px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.row{
+.row {
     margin-bottom: 50px;
 }
-.img-responsive{
-    margin:0 auto;
+.img-responsive {
+    margin: 0 auto;
 }
-.words{
+.words {
     text-align: center;
     font-size: 36px;
 }
    
-#header{
+#header {
     text-align: right;
     margin-bottom: 50px;
     border-bottom: 10px solid black;
     min-height: 80px;
 }
-#header > h1{
+#header > h1 {
     font-size: 75px;
 }
-#header > h2{
+#header > h2 {
     font-size: 50px;
 }
-.modal-body{
+.modal-body {
     text-align: center;
 }
